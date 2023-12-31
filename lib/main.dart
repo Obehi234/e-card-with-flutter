@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return  MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
@@ -20,11 +20,19 @@ class MyApp extends StatelessWidget {
                   backgroundImage: AssetImage('images/yaya.jpeg'),
 
                 ),
-                Text('Yaya Tataki',
+                const Text('Yaya Tataki',
                 style: TextStyle(
                   fontFamily: 'Pacifico',
                   fontSize: 40.0,
                   color: Colors.white,
+                  fontWeight: FontWeight.bold
+                )
+                ),
+                 Text('MOBILE DEVELOPER',
+                style: TextStyle(
+                  fontFamily: 'SourceSans3',
+                  fontSize: 20.0,
+                  color: Colors.teal.shade100,
                   fontWeight: FontWeight.bold
                 )
                 )
