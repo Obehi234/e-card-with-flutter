@@ -22,8 +22,10 @@ class MyApp extends StatelessWidget {
                 ),
                 Text('Yaya Tataki',
                 style: TextStyle(
+                  fontFamily: 'Pacifico',
                   fontSize: 40.0,
-                  color: Colors.white
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold
                 )
                 )
               ]
